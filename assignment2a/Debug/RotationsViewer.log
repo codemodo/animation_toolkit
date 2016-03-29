@@ -1,0 +1,20 @@
+﻿Build started 3/28/2016 7:48:48 PM.
+     1>Project "C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\assignment2a\RotationsViewer.vcxproj" on node 7 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I.\..\3rdparty\DevIL1.6.7\include /I.\..\3rdparty\FBX.SDK.2014.2\include /I.\..\3rdparty\glut /I.\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FBXSDK_SHARED /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\A2a-Rotations.pdb" /Gd /TP /wd4244 /wd4305 /wd4018 /analyze- /errorReport:prompt rotationsMain.cpp RotationsViewer.cpp
+         rotationsMain.cpp
+         RotationsViewer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\A2a-Rotationsd.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib /LIBPATH:.\..\3rdparty\DevIL1.6.7\lib /LIBPATH:.\..\3rdparty\FBX.SDK.2014.2\lib\vs2008\x86\release /LIBPATH:.\..\3rdparty\glut\glutx86 /LIBPATH:.\..\3rdparty\AntTweakBar.1.16\lib libUId.lib libAssignment2ad.lib libAssignment1d.lib libfbxsdk.lib glew32.lib DevIL.lib ILU.lib ILUT.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"./A2a-Rotationsd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\A2a-Rotationsd.lib" /MACHINE:X86 /SAFESEH Debug\rotationsMain.obj
+         Debug\RotationsViewer.obj
+         RotationsViewer.vcxproj -> C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\assignment2a\..\bin\A2a-Rotationsd.exe
+       PostBuildEvent:
+         copy ..\bin\A2a-Rotationsd.exe ..\..\bin
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\assignment2a\RotationsViewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53

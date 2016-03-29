@@ -1,0 +1,16 @@
+﻿Build started 12/5/2015 5:31:34 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW9 - AnimationToolkit\assignment5\BehaviorViewer-soln.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (A5-Behaviors-soln.vcxproj, A5-Behaviors.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\A5-BehaviorViewer-solnd.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib /LIBPATH:.\..\3rdparty\DevIL1.6.7\lib /LIBPATH:.\..\3rdparty\FBX.SDK.2014.2\lib\vs2008\x86\release /LIBPATH:.\..\3rdparty\glut\glutx86 /LIBPATH:.\..\3rdparty\AntTweakBar.1.16\lib libUId.lib "libAssignment1-solnd.lib" "libAssignment2a-solnd.lib" "libAssignment2b-solnd.lib" "libAssignment4-solnd.lib" "libAssignment5-solnd.lib" libfbxsdk.lib glew32.lib DevIL.lib ILU.lib ILUT.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\A5-BehaviorViewer-solnd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\A5-BehaviorViewer-solnd.lib" /MACHINE:X86 /SAFESEH Debug\behaviorMain.obj
+         Debug\behaviorViewer.obj
+         BehaviorViewer-soln.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW9 - AnimationToolkit\assignment5\..\bin\A5-BehaviorViewer-solnd.exe
+       PostBuildEvent:
+         copy ..\bin\A5-BehaviorViewer-solnd.exe ..\..\bin
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW9 - AnimationToolkit\assignment5\BehaviorViewer-soln.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

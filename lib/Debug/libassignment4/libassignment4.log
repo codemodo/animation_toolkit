@@ -1,0 +1,51 @@
+﻿Build started 3/28/2016 7:48:40 PM.
+     1>Project "C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\libsrc\animation\libassignment4.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\..\..\3rdparty\eigen-3.2.2" /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D FBXSDK_SHARED /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Debug\libassignment4\\" /Fd"..\..\lib\Debug\libassignment4\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt aFireworks.cpp aJitter.cpp aParticle.cpp aParticleSystem.cpp aRocket.cpp aSpark.cpp
+         aFireworks.cpp
+     1>aFireworks.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+         aJitter.cpp
+         aParticle.cpp
+         aParticleSystem.cpp
+         aRocket.cpp
+         aSpark.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libassignment4d.lib" /NOLOGO ..\..\lib\Debug\libassignment4\aFireworks.obj
+         ..\..\lib\Debug\libassignment4\aJitter.obj
+         ..\..\lib\Debug\libassignment4\aParticle.obj
+         ..\..\lib\Debug\libassignment4\aParticleSystem.obj
+         ..\..\lib\Debug\libassignment4\aRocket.obj
+         ..\..\lib\Debug\libassignment4\aSpark.obj
+         libassignment4.vcxproj -> C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\libsrc\animation\..\..\lib\libassignment4d.lib
+       PostBuildEvent:
+         copy *.h ..\..\include
+         :VCEnd
+         aActor.h
+         aBehaviorController.h
+         aBehaviors.h
+         aBVHController.h
+         aFireworks.h
+         aIKController.h
+         aJitter.h
+         aJoint.h
+         aMatrix.h
+         aMotion.h
+         aMotionController.h
+         aParticle.h
+         aParticleSystem.h
+         aRocket.h
+         aRotation.h
+         aSkeleton.h
+         aSpark.h
+         aSplineQuat.h
+         aSplineVec3.h
+         aTarget.h
+         aTransform.h
+         aVector.h
+                22 file(s) copied.
+     1>Done Building Project "C:\Users\Alex\Documents\GitHub\AnimationToolkit-AlexFiuk\HW9 - AnimationToolkit\libsrc\animation\libassignment4.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01

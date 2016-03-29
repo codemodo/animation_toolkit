@@ -1,0 +1,33 @@
+﻿Build started 10/26/2015 11:22:28 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment1-soln.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\..\..\3rdparty\eigen-3.2.2" /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D FBXSDK_SHARED /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Debug\libassignment1-soln\\" /Fd"..\..\lib\Debug\libassignment1-soln\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "aSplineVec3-soln.cpp" aVector.cpp
+         aSplineVec3-soln.cpp
+         aVector.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libassignment1-solnd.lib" /NOLOGO "..\..\lib\Debug\libassignment1-soln\aSplineVec3-soln.obj"
+         "..\..\lib\Debug\libassignment1-soln\aVector.obj"
+         libassignment1-soln.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\..\..\lib\libassignment1-solnd.lib
+       PostBuildEvent:
+         copy *.h ..\..\include
+         :VCEnd
+         aActor.h
+         aBVHController.h
+         aIKController.h
+         aJoint.h
+         aMotion.h
+         aMotionController.h
+         aRotation.h
+         aSkeleton.h
+         aSplineQuat.h
+         aSplineVec3.h
+         aTarget.h
+         aTransform.h
+         aVector.h
+                13 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment1-soln.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.62

@@ -1,0 +1,38 @@
+﻿Build started 10/26/2015 11:23:12 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment2b-soln.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\..\..\3rdparty\eigen-3.2.2" /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D FBXSDK_SHARED /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Release\libassignment2b-soln\\" /Fd"..\..\lib\Release\libassignment2b-soln\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "aActor-soln.cpp" "aBVHController-soln.cpp" "aJoint-soln.cpp" "aSkeleton-soln.cpp" "aTransform-soln.cpp"
+         aActor-soln.cpp
+         aBVHController-soln.cpp
+         aJoint-soln.cpp
+         aSkeleton-soln.cpp
+         aTransform-soln.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libassignment2b-soln.lib" "libassignment2c-soln.lib" /LIBPATH:..\..\lib /NOLOGO /LTCG "..\..\lib\Release\libassignment2b-soln\aActor-soln.obj"
+         "..\..\lib\Release\libassignment2b-soln\aBVHController-soln.obj"
+         "..\..\lib\Release\libassignment2b-soln\aJoint-soln.obj"
+         "..\..\lib\Release\libassignment2b-soln\aSkeleton-soln.obj"
+         "..\..\lib\Release\libassignment2b-soln\aTransform-soln.obj"
+         libassignment2b-soln.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\..\..\lib\libassignment2b-soln.lib
+       PostBuildEvent:
+         copy *.h ..\..\include
+         :VCEnd
+         aActor.h
+         aBVHController.h
+         aIKController.h
+         aJoint.h
+         aMotion.h
+         aMotionController.h
+         aRotation.h
+         aSkeleton.h
+         aSplineQuat.h
+         aSplineVec3.h
+         aTarget.h
+         aTransform.h
+         aVector.h
+                13 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment2b-soln.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.45

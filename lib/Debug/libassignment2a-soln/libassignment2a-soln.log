@@ -1,0 +1,26 @@
+﻿Build started 10/26/2015 11:23:01 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment2a-soln.vcxproj" on node 3 (Build target(s)).
+     1>Lib:
+         libassignment2a-soln.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\..\..\lib\libassignment2a-solnd.lib
+       PostBuildEvent:
+         copy *.h ..\..\include
+         :VCEnd
+         aActor.h
+         aBVHController.h
+         aIKController.h
+         aJoint.h
+         aMotion.h
+         aMotionController.h
+         aRotation.h
+         aSkeleton.h
+         aSplineQuat.h
+         aSplineVec3.h
+         aTarget.h
+         aTransform.h
+         aVector.h
+                13 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW6 - AnimationToolkit - Solution\libsrc\animation\libassignment2a-soln.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15
